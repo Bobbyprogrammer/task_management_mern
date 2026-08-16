@@ -10,10 +10,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^10.8.1",
+    "prettier": "^3.9.6"
+  },
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "check-format": "prettier --check ."
   },
   "keywords": [],
   "author": "",
