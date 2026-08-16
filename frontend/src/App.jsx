@@ -52,7 +52,7 @@ function Auth({ mode, onAuth }) {
       setLoading(false);
     }
   }
-
+  const name = 'Babar';
   return (
     <div className="auth-page">
       <section className="auth-brand">
