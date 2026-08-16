@@ -28,7 +28,7 @@ API.interceptors.request.use((config) => {
   return config;
 });
 const emptyTask = { title: '', description: '', status: 'todo', priority: 'medium', dueDate: '' };
-const statusLabels = { todo: 'To do', 'in-progress': 'In progress', completed: 'Completed' };
+const statusLabels = { todo: 'To Do', 'in-progress': 'In progress', completed: 'Completed' };
 
 function Auth({ mode, onAuth }) {
   const navigate = useNavigate();
