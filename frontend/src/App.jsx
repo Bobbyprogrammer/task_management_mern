@@ -52,8 +52,7 @@ function Auth({ mode, onAuth }) {
       setLoading(false);
     }
   }
-  const name = 'Babar';
-  const user = 'Babar';
+
   return (
     <div className="auth-page">
       <section className="auth-brand">
